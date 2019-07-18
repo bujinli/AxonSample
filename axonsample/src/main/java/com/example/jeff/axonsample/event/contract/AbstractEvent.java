@@ -4,6 +4,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.axonframework.modelling.command.TargetAggregateIdentifier;
+import org.axonframework.serialization.Revision;
 
 @Getter
 @Setter
