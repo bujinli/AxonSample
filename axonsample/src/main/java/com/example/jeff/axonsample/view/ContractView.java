@@ -27,5 +27,7 @@ public class ContractView implements ContractInterface {
 
   private String partyB;
 
+  private String industryName;
+
   private boolean deleted = false;
 }

@@ -9,6 +9,7 @@ import org.axonframework.serialization.Revision;
 @Getter
 @Setter
 @NoArgsConstructor
+@Revision("1.0.0")
 public class AbstractEvent {
 
   @TargetAggregateIdentifier

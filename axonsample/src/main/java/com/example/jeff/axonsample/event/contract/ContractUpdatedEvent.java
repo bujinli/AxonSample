@@ -18,6 +18,8 @@ public class ContractUpdatedEvent extends AbstractEvent implements ContractInter
 
   private String partyB;
 
+  private String industryName;
+
   public ContractUpdatedEvent(Long identifier, String name, String partyA, String partyB) {
     super(identifier);
     this.name = name;

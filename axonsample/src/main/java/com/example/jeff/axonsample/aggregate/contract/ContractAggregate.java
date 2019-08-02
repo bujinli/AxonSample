@@ -35,6 +35,7 @@ public class ContractAggregate implements ContractInterface {
   private String partyA;
 
   private String partyB;
+  private String industryName;
 
   private boolean deleted = false;
 
